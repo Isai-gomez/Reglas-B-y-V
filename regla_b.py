@@ -21,7 +21,7 @@ while continuar == 1:
 		buscar = b_buscado.silavas_buscadas(palabra)
 		con_s = b_buscado.buscar_con_s(palabra)
 		cons = b_buscado.constante(palabra)
-	
+
 		print("------------------------------------------------")
 		print("En el verbo ",palabra, verbo)
 		print("-------------------------------------------------")
@@ -35,4 +35,5 @@ while continuar == 1:
 		print("En la palabra ", palabra, cons)
 		print("-----------------------------------------------")
 	continuar = int(input("DESEA  VERIFICAR UNA PALABRA  1.SÍ 0.NO; "))
+	#termina el programa de b con v
 #--------fin del while-------------------
